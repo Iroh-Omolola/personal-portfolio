@@ -1,0 +1,128 @@
+.card{
+  display: grid;
+  grid-gap: 2rem;
+  margin-bottom: 4rem;
+  grid-template-columns: 1fr;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 2rem;
+}
+
+  @media (min-width: 992px) {
+   .card{
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 0;
+    padding-bottom: 0;
+   }
+  }
+
+.topic-title{
+  text-align:center;
+  font-size:30px;
+  padding-bottom: 20px;
+}
+.card-left{
+  background: #151418;
+  border-radius: 5px;
+  padding: 5px;
+  justify-self: center;
+}
+ 
+  .project-img {
+    border-radius: 3px;
+    height: auto;
+    width: 460px;
+  }
+  @media (max-width: 468px) {
+    .project-img {
+      
+      width: 350px;
+    }
+  }
+  @media (max-width: 364px) {
+    .project-img {   
+      width: 300px;
+    }
+  }
+  @media (max-width: 904px) {
+  p{
+    text-align: center;
+    justify-content: center;
+  }
+  h4{
+    text-align: center;
+  }
+  .stack{
+    justify-content: center;
+  }
+  .btn-group{
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+.card-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .project-paragraph {
+    font-weight: 400;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.815);
+    text-align: center;
+  }
+    @media (min-width: 992px) {
+      .project-paragraph{
+      text-align: start;
+     }
+    }
+ 
+  @media (min-width: 992px) {
+ .card-right{
+  align-items: flex-start;
+  margin-top: 1rem;
+ }
+  }
+
+.stack{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+  .stackTitle {
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+  .tags {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+
+.btn-group{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn2{
+  color: white;
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: #1f2235;
+  text-align: center;
+}
+.btn2:hover{
+  color: aliceblue;
+  border: 2px solid #ff5823;
+  background-color: #1f2235;
+}

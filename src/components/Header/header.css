@@ -1,0 +1,26 @@
+.nav{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+  
+
+.menu-item{
+  color: rgb(119, 119, 121);
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 25px;
+  scroll-behavior: smooth;
+}
+ 
+.menu-item:hover {
+    color: #f6f6f6;
+  }
+
+
+
