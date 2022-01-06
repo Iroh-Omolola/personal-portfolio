@@ -6,8 +6,10 @@ export const Footer = () => {
            
               <footer>
                 <div className="wrapper">
+                  <div>
                   <h3>THANKS FOR VISITING</h3>
-                  <p>© {new Date().getFullYear()} Hero.</p> 
+                  <p>© {new Date().getFullYear()} Hero.</p>  
+                  </div> 
                 </div>
               </footer>
             );
