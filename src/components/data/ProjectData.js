@@ -43,7 +43,7 @@ export const ProjectList = [
     description: "React Admin Dashboard where admin can get the detailed transactions of products",
     tech_stack: "Reactjs, CSS",
     github_url: "https://github.com/Iroh-Omolola/React-admin",
-    demo_url: "https://app.netlify.com/sites/upbeat-euler-6f1312",
+    demo_url: "https://upbeat-euler-6f1312.netlify.app/",
   },
   {
     img: nba,
