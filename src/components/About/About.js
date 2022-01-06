@@ -18,7 +18,7 @@ function About() {
             Hello! My name is <strong>Iroh Omolola</strong> and I enjoy
             creating things that live on the internet. My interest in web
             development started back in 2017 when I craeted a site with html and css using a youtube video and I
-            learnt lot about HTML & CSS!
+            learnt lot about HTML & CSS. Now, I've been able to acquire knowledge of different tech stack
             </p>
           </div>
           <div className="AboutBio tagline2">

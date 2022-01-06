@@ -5,10 +5,10 @@ export const Footer = () => {
     return (
            
               <footer>
-                <div className="wrapper">
+                <div className="wrapper" style={{"justifyContent":"center"}}>
                   <div>
                   <h3>THANKS FOR VISITING</h3>
-                  <p>© {new Date().getFullYear()} Hero.</p>  
+                  <p style={{"textAlign":"center"}}>© {new Date().getFullYear()} Hero.</p>  
                   </div> 
                 </div>
               </footer>

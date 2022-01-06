@@ -15,16 +15,17 @@ export const Profile = () => {
           <div className="colz">
           
             <div className="colz-icon">
-            <a href="#e">
+            <a href="https://www.facebook.com/Iroh-Nkechi">
               <i className="fa fa-facebook-square"></i>
             </a>
-            <a href="#w">
+            
+            <a href="mailto:irohomolola@gmail.com">
               <i className="fa fa-google-plus-square"></i>
             </a>
-            <a href="#l">
+            <a href="https://www.linkedin.com/in/nkechi-omolola-iroh-516b15195/">
               <i className="fa fa-linkedin"></i>
             </a>
-            <a href="#m">
+            <a href="https://www.twitter.com/hero">
               <i className="fa fa-twitter"></i>
             </a>
             </div>

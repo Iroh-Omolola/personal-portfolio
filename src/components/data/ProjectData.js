@@ -1,4 +1,16 @@
 // ------------------ Project List
+
+import uber from "../../img/uber.png";
+import nba from "../../img/nba.png";
+import medChat from "../../img/medChat.png";
+import reactA from "../../img/reactA.png";
+import html from "../../img/tool7.png";
+import next from "../../img/tool1.png";
+import mongo from "../../img/tool2.png";
+import node from "../../img/tool3.png";
+import react from "../../img/tool4.png";
+import javascript from "../../img/tool5.png";
+import git from "../../img/tool6.png";
 export const ProjectList = [
   {
     img: "",
@@ -9,7 +21,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "https://drive.google.com/file/d/1Cu0eg1EBeqSJ1-iA3jRH7EafKElG3daN/view?usp=sharing",
+    img: uber,
     title: "Uber",
     description: "CleverProgramming Challenge, Uber is a car-ride page for drivers and users.",
     tech_stack: "Tailwind, Next",
@@ -17,28 +29,28 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "https://drive.google.com/file/d/1l0Y_-AP-2KaLelooC7T4-Lf7RMptboUu/view?usp=sharing",
+    img: medChat,
     title: "Med-Chat-App",
     description:
       "A professional medical chat web-app. The app is for patients and doctors only",
-    tech_stack: "Html, Css, Javascript",
+    tech_stack: "Reactjs, Css, Mongodb, node",
     github_url: "https://github.com/Iroh-Omolola/Med_Chat_App",
     demo_url: "https://sad-sammet-8813a7.netlify.app/",
   },
   {
-    img: "https://drive.google.com/file/d/1_5vyunL0iwuSLQS4ds20SQzU1p4RUMdq/view?usp=sharing",
+    img: reactA,
     title: "Admin Dashboard",
     description: "React Admin Dashboard where admin can get the detailed transactions of products",
-    tech_stack: "Reactjs, Css",
+    tech_stack: "Reactjs, CSS",
     github_url: "https://github.com/Iroh-Omolola/React-admin",
     demo_url: "https://app.netlify.com/sites/upbeat-euler-6f1312",
   },
   {
-    img: "https://drive.google.com/file/d/1jPj93nN1uyvAauaCJ42oNLtEyyMYEgV8/view?usp=sharing",
+    img: nba,
     title: "NBA website",
     description:
       "Created simple NBA website using html, css and bootstrap.",
-    tech_stack: "Reactjs, Css",
+    tech_stack: "HTML, CSS",
     github_url: "https://github.com/Iroh-Omolola/NBA",
     demo_url: "https://hardcore-goldberg-deca75.netlify.app/",
   },
@@ -48,47 +60,39 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/html5.svg",
+    img: html,
     name: "HTML",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/css3.svg",
+    img: "https://w7.pngwing.com/pngs/682/927/png-transparent-responsive-web-design-web-development-cascading-style-sheets-css3-web-design-blue-angle-web-design.png",
     name: "CSS",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/javascript.svg",
+    img: javascript,
     name: "JavaScript",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/bootstrap.svg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcpPw5sAF0W-id0m3p4tHeyEwumXkbENJwrkKWNsf0xWpA3c3MlCRtwdZUU4_f1gwQtXA&usqp=CAU",
     name: "Bootstrap",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/sass.svg",
+    img: "https://banner2.cleanpng.com/20180815/xbk/kisspng-sass-logo-cascading-style-sheets-scalable-vector-g-codzero-cms-blog-tool-publishing-platform-5b74aaa0de6192.1715579115343725129109.jpg",
     name: "Scss",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/git.svg",
-    name: "Git",
-  },
-  {
-    img: "https://th.bing.com/th/id/OIP.D_Gm8IGCvkqmOgtU2hueVwHaHS?pid=ImgDet&rs=1",
+    img: git,
     name: "Github",
   },
   {
-    img: "https://th.bing.com/th/id/R.8b7050fa24b3da080d913369b1abea2d?rik=cClEAYOt1Y9ttQ&riu=http%3a%2f%2fblog.poeditor.com%2fwp-content%2fuploads%2f2014%2f06%2fbitbucket-logo.png&ehk=IyWtC8zCDvtIFuLE0Hl3sWCM%2fwfL4281vU5f5EEqC%2fY%3d&risl=&pid=ImgRaw&r=0",
+    img: "https://user.oc-static.com/upload/2019/04/06/15545859801024_bitbucket-logo.png",
     name: "Bitbucket",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/responsive.svg",
-    name: "Responsive",
-  },
-  {
-    img: "https://th.bing.com/th/id/OIP.NgoO9GZty71i2XnnEAtKbQHaFj?w=276&h=207&c=7&r=0&o=5&pid=1.7",
+    img: react,
     name: "React",
   },
   {
-    img:"https://th.bing.com/th/id/R.1baaac5e74c2b740d4b41058e7aa14be?rik=d7XvZjdPB241aw&pid=ImgRaw&r=0",
+    img:mongo,
     name: "MongoDB",
   },
   {
@@ -96,11 +100,11 @@ export const stackList = [
     name: "ExpressJS"
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png",
+    img: next,
     name: "Next",
   },
   {
-    img: "https://th.bing.com/th/id/R.08ebf3d0bdc551aa5861bb101c767dd2?rik=WV7FwDzeAt%2fZYg&pid=ImgRaw&r=0",
+    img: node,
     name: "Node",
   },
   {
