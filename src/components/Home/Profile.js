@@ -1,7 +1,17 @@
 import React from "react";
 import Typical from 'react-typical'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import Header from "../Header/Header";
-import "./profile.css"
+import "./profile.css";
+
+AOS.init({
+  offset: 200,
+  duration: 800,
+  easing: 'ease-in-out-sine',
+  delay: 200,
+  mirror: true
+});
 
 export const Profile = () => {
   return (
@@ -60,13 +70,12 @@ export const Profile = () => {
         </div>
         <div className="profile-options">
         <a href="mailto:irohomolola@gmail.com"><button className="btn primary-btn">Hire Me</button></a> 
-          <a href="hero pdf" download="Iroh Omolola.pdf"><button className="btn highlighted-btn">Get Resume</button></a>
+          <a href="https://docs.google.com/document/d/1XiYvIDSL8vh-7vy5OBWuRgmJagSZd8Z2/edit?usp=sharing&ouid=106443183461334331907&rtpof=true&sd=true"><button className="btn highlighted-btn">Get Resume</button></a>
         </div>
         </div>
-        <div className="profile-picture">
-<div className="profile-picture-background">
-    
-</div>
+        <div className="profile-picture" data-aos="zoom-in">
+          <div className="profile-picture-background">
+          </div>
         </div>
       </div>
     </div>

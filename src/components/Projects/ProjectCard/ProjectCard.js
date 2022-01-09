@@ -1,6 +1,16 @@
 import React from "react";
 import { ProjectList } from "../../data/ProjectData.js";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import "./project.css"
+
+AOS.init({
+  offset: 200,
+  duration: 800,
+  easing: 'ease-in-out-sine',
+  delay: 200,
+  mirror: true
+});
 
 function ProjectCard() {
   return (
@@ -8,10 +18,10 @@ function ProjectCard() {
     <h2 className="topic-title" id="projects">PROJECTS</h2>
       {ProjectList.map((list, index) => (
         <div className="card" key={index}>
-          <div className="card-left">
+          <div className="card-left" data-aos="fade-left">
             <img className="project-img" src={list.img} alt={list.name} />
           </div>
-          <div className="card-right">
+          <div className="card-right"data-aos="fade-up">
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <div className="stack">

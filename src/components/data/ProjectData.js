@@ -3,27 +3,26 @@
 import uber from "../../img/uber.png";
 import nba from "../../img/nba.png";
 import medChat from "../../img/medChat.png";
+import wemoove from "../../img/wemoove.png";
 import reactA from "../../img/reactA.png";
 import html from "../../img/tool7.png";
-import next from "../../img/tool1.png";
 import mongo from "../../img/tool2.png";
-import node from "../../img/tool3.png";
 import react from "../../img/tool4.png";
 import javascript from "../../img/tool5.png";
 import git from "../../img/tool6.png";
 export const ProjectList = [
   {
-    img: "",
+    img: wemoove,
     title: "WeMoove",
-    description: "",
+    description: "WeMoove is an application where users can rent a car of their choice and also request for drivers",
     tech_stack: " React, Mongodb, Express, Nodejs",
-    github_url: "",
-    demo_url: "",
+    github_url: "https://github.com/Iroh-Omolola/weMoove",
+    demo_url: "https://wemoove.netlify.app",
   },
   {
     img: uber,
     title: "Uber",
-    description: "CleverProgramming Challenge, Uber is a car-ride page for drivers and users.",
+    description: "Uber is a car-ride page for drivers and passengers.",
     tech_stack: "Tailwind, Next",
     github_url: "https://github.com/Iroh-Omolola/Uber",
     demo_url: "",
@@ -100,11 +99,7 @@ export const stackList = [
     name: "ExpressJS"
   },
   {
-    img: next,
-    name: "Next",
-  },
-  {
-    img: node,
+    img: "https://nodejs.org/static/images/logo.svg",
     name: "Node",
   },
   {
