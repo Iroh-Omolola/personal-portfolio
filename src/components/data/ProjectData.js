@@ -23,7 +23,7 @@ export const ProjectList = [
     img: uber,
     title: "Uber",
     description: "Uber is a car-ride page for drivers and passengers.",
-    tech_stack: "Tailwind, Next",
+    tech_stack: "Nextjs",
     github_url: "https://github.com/Iroh-Omolola/Uber",
     demo_url: "",
   },
@@ -31,7 +31,7 @@ export const ProjectList = [
     img: medChat,
     title: "Med-Chat-App",
     description:
-      "A professional medical chat web-app. The app is for patients and doctors only",
+      "A chat web-appplication",
     tech_stack: "Reactjs, Css, Mongodb, node",
     github_url: "https://github.com/Iroh-Omolola/Med_Chat_App",
     demo_url: "https://sad-sammet-8813a7.netlify.app/",

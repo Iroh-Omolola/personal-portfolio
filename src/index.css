@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  
+    overflow-x: hidden !important;
 }
 body{
   margin: 0;
   overflow-y: overlay;
+  overflow-x: hidden !important;
   font-family: "Poppins","Poppins Regular";
   -webkit-font-smoothing:antialiased;
    -moz-osx-font-smoothing: grayscale;
