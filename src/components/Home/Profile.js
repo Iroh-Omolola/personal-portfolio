@@ -64,7 +64,7 @@ export const Profile = () => {
                     />
                 </h1>
                 <span className="profile-role-tagline">
-                    Knack of building applications with front and back end operations.
+                    Knack for building applications with front and back end operations.
                 </span>
             </span>
         </div>
