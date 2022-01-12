@@ -4,14 +4,6 @@ import "./about.css"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-AOS.init({
-  offset: 200,
-  duration: 800,
-  easing: 'ease-in-out-sine',
-  delay: 200,
-  mirror: true
-});
-
 function About() {
   return (
     <div className="contact-wrapper" id="about">
@@ -36,7 +28,7 @@ function About() {
           </div>
           <div className="technologies">
             {stackList.map((stack, index) => (
-              <div key={index} className="tech" data-aos="flip-down">
+              <div key={index} className="tech">
                 <img className="tech-img" src={stack.img} alt={stack.name} />
                 <div className="tech-name">{stack.name}</div>
               </div>
