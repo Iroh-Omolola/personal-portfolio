@@ -1,13 +1,17 @@
 
 .contact-wrapper{
   margin-top: 5rem;
-  padding-top: 10px;
+  padding: 10px;
   background-color: rgb(172, 172, 172);
+  height: auto;
 }
 .BigCard{
+  padding-top: 5px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
+
 }
 .image{
   width: 120px;
@@ -23,9 +27,12 @@
   text-align: center;
   font-size: 30px;
 }
-  .AboutBio{
+.AboutBio{
     text-align: center;
     padding-bottom: 20px;
+  }
+  .AboutBio p{
+    font-size: 18px;
   }
 .technologies{
   display: flex;
