@@ -69,7 +69,7 @@ export const Profile = () => {
               <a href="mailto:irohomolola@gmail.com">
                 <button className="btn primary-btn">Hire Me</button>
               </a>
-              <a href="https://drive.google.com/file/d/1gZIG72o3TW3Sdt458_lVE1dhma6dK4Wy/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/15cnG2iIKtLx79cIfSWf1zcN_jVV6BQnk/view?usp=sharing">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
