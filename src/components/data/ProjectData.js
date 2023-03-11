@@ -1,6 +1,5 @@
 // ------------------ Project List
 
-import uber from "../../img/uber.png";
 import crowdyvest from "../../img/crowdyvest.png";
 import fyba from "../../img/fyba.png";
 import rentkondo from "../../img/rentkondo.png";
@@ -35,7 +34,6 @@ export const ProjectList = [
     title: "Grid",
     description: "Grid is more than just a money app - it's a community of creators who are committed to supporting and empowering each other.",
     tech_stack: " Next, Typescript, Tailwind, Redux",
-    github_url: "https://github.com/Iroh-Omolola/weMoove",
     demo_url: "https://getgrid.vercel.app/",
   },
    {
@@ -44,14 +42,6 @@ export const ProjectList = [
     description: "Kondo provides millennial with an experience that redefines how homes are being leased, making each step from search to renting as simple and stress free as possible providing you with the comfort to let.",
     tech_stack: "Nextjs",
     demo_url: "https://www.rentkondo.com/",
-  },
-  {
-    img: uber,
-    title: "Uber",
-    description: "Uber is a car-ride page for drivers and passengers.",
-    tech_stack: "Nextjs",
-    github_url: "https://github.com/Iroh-Omolola/Uber",
-    demo_url: "",
   },
   {
     img: fyba,
